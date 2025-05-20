@@ -7,99 +7,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Project</li>
-                <li>Contact</li>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li class="logo">DARSHDEEP<br>SINGH</li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="intro">
-            <h1>Hello<br>I'm Darshdeep Singh</h1>
-            <p>A creative and detail-oriented designer with expertise  in Ux design, Graphic design, Ui design. I specialize in crafting user centric and delivering innovative solutions that connect with audiences. With a human centric approach to design, I focus on creating meaningful experiences that blend creativity, functionality and stategy. My goal is to transform ideas into impactful results, always striving for excellence and originality in every project I undertake.</p>
-        </div>
     </header>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skill">
-            <span>UI designing</span>
-            <div class="progress">
-                <div class="bar" style="width: 90%;"></div>
+    <main>
+        <section class="about-section" id="about">
+            <div class="about-img">
+                <img src="image/me.jpg" alt="Profile">
             </div>
-        </div>
-        <div class="skill">
-            <span>UX research</span>
-            <div class="progress">
-                <div class="bar" style="width: 85%;"></div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>A creative and detail-oriented photographer and freelancer. I use design, photography, and storytelling to capture unique moments and create impactful visuals. My passion for visual arts drives me to constantly learn and experiment with new techniques, ensuring every project is both innovative and meaningful. Let's collaborate to bring your vision to life through the lens of creativity and originality. <br><br>— Darshdeep Singh</p>
             </div>
-        </div>
-        <div class="skill">
-            <span>Digital artwork</span>
-            <div class="progress">
-                <div class="bar" style="width: 97%;"></div>
+        </section>
+        <section class="skills-section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-gallery">
+                <img src="https://img.freepik.com/premium-vector/user-research-icon-simple-element-illustration-user-research-concept-symbol-design-can-be-used-web-mobile_159242-9795.jpg" alt="Skill 1">
+                <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Procreate_icon.png" alt="Skill 2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png?20200616073617" alt="Skill 3">
+                <img src="https://www.figma.com/community/resource/8f3b2e8c-0d3f-4409-ae0d-42449d61b841/thumbnail" alt="Skill 4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/800px-Adobe_Premiere_Pro_CC_icon.svg.png" alt="Skill 5">
             </div>
-        </div>
-        <div class="skill">
-            <span>Coding</span>
-            <div class="progress">
-                <div class="bar" style="width: 60%;"></div>
+        </section>
+        <section class="projects-section" id="projects">
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="https://images.pexels.com/photos/3768005/pexels-photo-3768005.jpeg?cs=srgb&dl=pexels-willoworld-3768005.jpg&fm=jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project 1</h3>
+                        <p>Creating a seamless in store experience for color-blind shoppers so they can be independant while shopping.</p>
+                        <span>2023</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn.prod.website-files.com/653392c432e997a1c5316037/673ef63bbeb90457ff89f580_4.webp" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project 2</h3>
+                        <p>Making the college canteen expeirence better using latest technologies and creative thinking.</p>
+                        <span>2023</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://blogassets.airtel.in/wp-content/uploads/2024/03/ARTICLE-3-3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project 3</h3>
+                        <p>Making wayfinding easier to travellers and new to town residents by incorporating onmichannel experiences.</p>
+                        <span>2024</span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="skill">
-            <span>Graphic design</span>
-            <div class="progress">
-                <div class="bar" style="width: 90%;"></div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>Let's Work Together</h2>
+                    <p>Excited to collaborate? Let's chat about your next project!</p>
+                    <a href="mailto:darsh1508@icloud.com" class="contact-btn">Let's Chat</a>
+                </div>
+                <div class="contact-img">
+                    <img src="image/cool.jpg" alt="Contact">
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        
-        <div class="project">
-<img src="https://images.pexels.com/photos/3768005/pexels-photo-3768005.jpeg?cs=srgb&dl=pexels-willoworld-3768005.jpg&fm=jpg" height="100px" width="100px">
-            <div class="project-text">
-                <h3>Project 1</h3><a href="https://www.figma.com/design/T41CNCGY389zu6qNHBDgQd/colorblind?m=auto&t=i5RWz9fuwaYhamU8-6">view</a>
-                <br>
-                <p>Designing a seamless and more inclusive in store experience for colorblind people, helping them be self efficient and not dependent on others for shopping.</p>
-            </div>
-        </div>
-<br>
-<br>
-        <div class="project">
-            <img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/08/Generation-z-Christmas-party-with-multi-ethnic-friends-1296x728-header.jpg?w=1155&h=1528" alt="Project 2">
-            <div class="project-text">
-                <h3>Project 2</h3><a href="https://www.figma.com/design/2pja0EMZgeiLijUIWxRyh7/dopamine?node-id=302-7&p=f&t=73aRwp6Wc1GCKZQB-0">view</a>
-                <p>This project explores how social media platforms leverage dopamine systems to drive user engagement, potentially leading to addiction and negative consequences..</p>
-            </div>
-        </div>
-
-        <div class="project">
-            <img src="https://5.imimg.com/data5/SELLER/Default/2024/11/464191423/EQ/FD/YI/56123829/food-order-kiosk-500x500.png" alt="Project 3">
-            <div class="project-text">
-                <h3>Project 3</h3><a href="https://www.canva.com/design/DAFeDVXLS30/JvXRiY2jgvW985BBNTpy2g/edit">view</a>
-                <p>Improving the canteen experience using technology.</p>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="contact">
-        <h2>Contact</h2>
-        <div class="contact-content">
-            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308" alt="Contact background">
-            <div class="contact-info">
-                <ul>
-                    <li>Email: darsh1508@icloud.com</li>
-                    <li>Phone: +91 9811810094</li>
-                    <li>Location: New Delhi, India</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </main>
 </body>
 </html>
